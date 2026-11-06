@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhabikala Suryabamshi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Jhabikala<span>.</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Jhabikala</span><br>Suryabamshi.</h1>
+            <p>
+                I love travelling, making new friends,
+                exploring technology and learning new skills.
+            </p>
+            <a href="#about" class="btn">Explore More ↓</a>
+            <p id="liveGreeting"></p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About <span>Me</span></h2>
+        <p>
+            Hello! My name is Jhabikala Suryabamshi.
+            I am a curious person who enjoys discovering
+            new places, meeting different people and
+            learning interesting things.
+        </p>
+        <p>
+            I believe learning never stops, and every
+            new experience helps us grow.
+        </p>
+    </section>
+
+    <section class="interests" id="interests">
+        <h2>My Hobbies & Interests</h2>
+
+        <div class="cards">
+            <div class="card">
+                <div class="emoji">✈️</div>
+                <h3>Travelling</h3>
+                <p>Exploring new places and discovering different cultures.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🤝</div>
+                <h3>Making New Friends</h3>
+                <p>Meeting people and creating meaningful connections.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">💻</div>
+                <h3>Technology</h3>
+                <p>Exploring technology and discovering digital ideas.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">📚</div>
+                <h3>Learning Skills</h3>
+                <p>Learning new things and improving myself every day.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <p>Have something interesting to share? Let's connect!</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message ↗</button>
+        </form>
+
+        <p id="formStatus"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Jhabikala Suryabamshi | Made with ❤️</p>
+    </footer>
+
+</body>
+</html>
